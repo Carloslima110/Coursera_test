@@ -1,0 +1,187 @@
+/* Folha de Estilos */
+
+* {
+    box-sizing: border-box;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	margin-top: 15px;
+	
+}
+
+h2 {
+    width: 45%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
+    position: absolute;
+    left: 55%;
+    font-size: 1.25em;
+}
+
+article {
+    border: 1px solid black;
+    background-color: #F8ECE0;
+    position: relative;
+}
+
+p {
+    text-align: left;
+    margin: 50px 2% 2% 2%;
+}
+
+ 
+/* Categorias do Menu */
+
+#chicken {
+    background-color: #FF4000;
+	color: #ffffff;
+}
+
+#beef {
+    background-color: #FF8000;
+    color: #ffffff;
+}
+
+#sushi {
+    background-color: #FFBF00;
+	color: #ffffff;
+}
+
+
+
+/* Layout Responsivo */
+
+
+@media (min-width: 992px) {
+
+    #col1 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 88%;
+        margin-left: 9%;
+        margin-right: 3%;
+    }
+
+
+    #col2 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 88%;
+        margin-left: 3%;
+        margin-right: 9%;
+    }
+
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+    #col1 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+
+
+    #col2 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 94%;
+        margin-left: 2%;
+        margin-right: 4%
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+        margin-top: 18px;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    #col1 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
